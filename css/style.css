@@ -5,6 +5,12 @@ body {
   color: #7d97ad;
   background: #fff;
 }
+.container {
+  box-sizing: border-box;
+  padding: 20px;
+  width: 100%;
+  min-width: 480px;
+}
 hr.horizontal-line {
   border: 2px solid #7d97ad ;
   width: 100%;
@@ -23,7 +29,6 @@ hr.horizontal-line {
     font-style: oblique;
     font-family: serif;
 }
-
 .header-job {
     margin: 2px;
     line-height: 1px;
@@ -87,12 +92,6 @@ hr.horizontal-line {
     text-align: center;
     font-size: 25px;
   }
-  /* .col-md-4 {
-    /* display: block;
-    margin: 0 auto;
-    height: auto; */
-    width: 100%;
-  } */
 
 }
 /* Small devices (landscape tablets) */
@@ -113,13 +112,7 @@ hr.horizontal-line {
     text-align: center;
     font-size: 25px;
   }
-  /* .col-md-4 {
-    /* display: block;
-    margin: 0 auto;
-    height: auto;
-    max-width: 64%; */
-    /* max-width: 100%; */
-  } */
+
 }
 /* Small devices (portrait tablets and large phones) */
 @media screen and (max-width:600px) {
@@ -139,9 +132,7 @@ hr.horizontal-line {
     text-align: center;
     font-size: 25px;
   }
-  /* .col-md-4{
-    max-width: 100%;
-  } */
+
 }
 /*Extra small devices (phones) */
 @media screen and (max-width:480px) {
@@ -163,10 +154,5 @@ hr.horizontal-line {
     text-align: center;
     font-size: 20px;
   }
-  /* .col-md-4 {
-    /* display: block;
-    margin: 0 auto;
-    height: auto; */
-    /* max-width: 100%; */
-  } */
+
 }
